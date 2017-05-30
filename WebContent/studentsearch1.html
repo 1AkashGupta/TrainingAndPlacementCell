@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="studentcorner.css">
+</head>
+<body>
+	<h2>No Record Found!</h2>
+	<section id="main">
+   <form action="StudentCornerServlet" method="get" align="center"> 
+        DEPARTMENT      <select name="dept"> 
+            <option value="cse">CSE</option> 
+            <option value="it">IT</option> 
+            <option value="ece">ECE</option> 
+            <option value="me">ME</option> 
+            <option value="ee">EE</option> 
+           <option value="ce">CE</option> 
+        </select><br> 
+        Min. CGPA       <input type="text" name="cgpa"><br> 
+        
+        BACKLOG ALLOWED        <select name="backlog">
+       <option value="yes">YES</option>
+            <option value="no">NO</option>
+       </select><br> 
+        
+        SKILLS REQUIRED    <select name="skills"> 
+       
+           <option value="html">HTML</option> 
+            <option value="oracle">ORACLE</option> 
+           <option value="j2ee">J2EE</option> 
+             
+        </select><br> 
+       <input type="submit" value="SEARCH"><br> 
+   </form>
+
+</body>
+</html>

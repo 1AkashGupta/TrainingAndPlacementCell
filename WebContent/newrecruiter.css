@@ -1,0 +1,54 @@
+@CHARSET "UTF-8";
+body{
+	font-family:"brandon-grotesque", Helvetica, sans-serif;-webkit-font-smoothing:antialiased;
+	
+	
+}
+
+form{
+	background-color: aliceblue;
+	margin-top : 4rem;
+	margin-bottom : 4rem;
+	margin-left : 4rem;
+	margin-right : 4rem;
+	
+	padding-top : 2rem;
+	padding-bottom : 2rem;
+	padding-left : 3rem;
+	padding-right : 2rem;
+	
+	border: 1px solid black;
+	
+	border-radius : 15px;
+	
+	font-size: 1rem;
+}
+
+input[type=text]{
+    font-size: 1rem;
+    width:30%;
+    border: 2px solid dimgrey;
+    text-align: left;
+    border-radius: 20px; 
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+
+input[type=submit]{
+    border: 2px solid dimgrey;
+    border-radius: 15px;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+input[type=submit]:hover{
+	border: 2px solid aqua;
+    background-color: aqua;
+}

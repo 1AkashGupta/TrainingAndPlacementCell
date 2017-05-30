@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="newrecruiter.css">
+</head>
+<body>
+	<form action="NewRecruiterServlet" method="get">
+        COMPANY NAME <input type="text" name="c_name"><br>
+        VISIT DATE <input type="text" name="date"><br>
+        CONTACT NUMBER <input type="text" name="number"><br>
+        EMAIL <input type="text" name="email"><br>
+        CRITERIA:<br>
+        DEPARTMENT <Select name="dept">
+            <option value="cse">CSE</option>
+            <option value="it">IT</option>
+            <option value="me">ME</option>
+            <option value="ce">CE</option>
+            <option value="ece">ECE</option>
+            <option value="ee">EE</option>
+            <option value="eee">EEE</option>
+        </Select><br>
+        CGPA <input type="text" name="cgpa"><br>
+        SKILL REQUIRED <input type="text" name="skill"><br>
+        BACKLOG ALLOWED <select name="back">
+            <option value="yes">YES</option>
+            <option value="no">NO</option>
+        </select><br>
+        <input type="submit" value="Create Drive">
+        </form>
+</body>
+</html>
